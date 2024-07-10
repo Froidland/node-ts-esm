@@ -1,0 +1,29 @@
+{
+	"name": "node-ts-esm",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node --import tsimp/import src/main.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"engines": {
+		"node": ">=20.14.10"
+	},
+	"packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903",
+	"devDependencies": {
+		"@eslint/js": "^9.6.0",
+		"@types/node": "^20.14.10",
+		"eslint": "^9.6.0",
+		"globals": "^15.8.0",
+		"prettier": "^3.3.2",
+		"typescript": "^5.5.3",
+		"typescript-eslint": "8.0.0-alpha.41"
+	},
+	"dependencies": {
+		"tsimp": "^2.0.11"
+	}
+}
